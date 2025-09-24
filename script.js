@@ -27,7 +27,7 @@ function addTask() {
   removeBtn.textContent = "Remove";
   removeBtn.classList.add("remove-btn");
   removeBtn.addEventListener("click", (e) => {
-    e.stopPropagation(); // Prevent marking complete when removing
+    e.stopPropagation(); 
     li.remove();
   });
 
